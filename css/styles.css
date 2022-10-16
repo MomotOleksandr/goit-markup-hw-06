@@ -823,12 +823,12 @@ div.adv-with-titles {
     height: 15px;
     border: 1px solid var(--primary-textcolor);
     border-radius: 2px;
+    fill: transparent;
 }
 .form-checkbox:checked + .notcheckbox {
-    border-color: transparent;
-    background-image: url(/images/borderwithmarkblue.svg);
-    background-size: contain;
-    background-origin: border-box;
+    border-color: var(--special-color);
+    background-color: var(--special-color);
+    fill: var(--special-color);
 }
 .modal-checkbox-icon {
     margin: 0;
@@ -894,6 +894,7 @@ div.adv-with-titles {
 .form-elementtextarea {
     width: 448px;
     height: 138px;
+    margin-bottom: 20px;
 }
 .form-element label {
     font-weight: 400;
@@ -919,6 +920,7 @@ div.adv-with-titles {
     position: absolute;
     top: 18px;
     left: 0;
+    padding-top: 12px;
 }
 .form-element input,
 .form-element textarea {
@@ -950,7 +952,7 @@ div.adv-with-titles {
 .form-element textarea {
     padding-left: 16px;
     width: 429px;
-    height: 120px;
+    height: 108px;
 }
 .modal-icon {
     position: absolute;
