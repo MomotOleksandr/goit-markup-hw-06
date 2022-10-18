@@ -44,6 +44,7 @@ body {
     background-color: var(--primary-backgroundcolor);
     color: var(--primary-textcolor);
 }
+
 /* стилі для хедера*/
 .header-styles {
     border-bottom: 1px solid var(--border-color);
@@ -57,13 +58,9 @@ div.container {
     margin-left: auto;
     margin-right: auto;
 }
-div.container.main-nav {
-    
-}
 .main-nav {
     display: flex;
     align-items: center;
-    
 }
 .logo-styleheader {
     font-family: "Raleway", sans-serif;
@@ -892,9 +889,7 @@ margin: 40px 40px 22px 40px;
     letter-spacing: 0.01em;
     color: var(--secondary-textcolor);
     margin-bottom: 4px;
-    position: absolute;
-    left: 0;
-    top: 0;
+    display: inline-block;
 }
 
 .form-input {
@@ -911,7 +906,7 @@ margin: 40px 40px 22px 40px;
     border: none;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px; 
-    margin-top: 18px;
+    
     transition-property: border;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -937,9 +932,7 @@ margin: 40px 40px 22px 40px;
 .form-element textarea {
     padding-left: 16px;
     max-width: 429px;
-    min-width: 429px;
-    max-height: 108px;
-    min-height: 108px;
+    resize: none;
 }
 .modal-icon {
     position: absolute;
