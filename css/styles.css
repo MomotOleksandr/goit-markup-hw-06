@@ -874,12 +874,12 @@ margin: 40px 40px 22px 40px;
 .form-element {
     position: relative;
     margin: 0;
-    height: 58px;
+    
     margin-bottom: 10px;
 }
 .form-elementtextarea {
     width: 448px;
-    height: 138px;
+   
     margin-bottom: 20px;
 }
 .form-element label {
